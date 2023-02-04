@@ -1,32 +1,82 @@
-body {
-    background-color: lightblue;
+* 
+{
+    box-sizing: border-box;
 }
 
-h1 {
-    color: blue;
+.a
+{
+    padding: 50px;
     text-align: center;
-}
-
-h2 {
-    font-size: 26px;
-    color: maroon;
-}
-
-p {
-    text-align: justify;
-    font-size: 18px;
-}
-
-hr {
-    height: 3px;
+    background-color: teal;
     color: black;
-    background-color: black;
+    font-size: 30px;
 }
 
-ul {
-    font-size: 18px;
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+h3{
+    font-size: 22px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.b
+{
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  }
+
+.left
+{
+    -ms-flex: 30%; 
+    flex: 30%;
+    padding: 20px;
+    background-color: rgba(31, 192, 165, 0.358);
+}
+
+.right
+{
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: rgba(25, 181, 155, 0.995);
+    padding: 20px;
+}
+
+.c
+{
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    /* background-color: rgba(31, 192, 165, 0.6); */
+    padding: 20px;
+    background-color: teal;
+    /* font-size: 20px; */
+}
+
+hr{
+    height: 3px;
+    background-color: black;
+    color: black;
+
 }
 
 ol{
-    font-size: 18px;
+    font-size: 20px;
+}
+
+ul{
+    font-size: 20px;
 }
